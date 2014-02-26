@@ -141,6 +141,6 @@ function kiwi_logo_carousel_shortcode( $atts, $content = null ) {
 
 if ( ! function_exists('kw_sc_logo_carousel')) {
 	function kw_sc_logo_carousel($id = 'default') {
-		echo do_shortcode('[logo-carousel '.$id.']');
+		echo do_shortcode('[logo-carousel id='.$id.']');
 	}
 }
